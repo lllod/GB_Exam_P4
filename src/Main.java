@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        AnimalsDoing animalsDoing = new AnimalsDoing();
+        Menu menu = new Menu(animalsDoing);
+        menu.showMenu();
     }
 }
